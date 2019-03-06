@@ -1,0 +1,31 @@
+{
+  "name": "shopmate-db",
+  "version": "1.0.0",
+  "description": "ShopMate's database module ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js &",
+    "dev": "nodemon index.js"
+  },
+  "author": "Diego Mendez <diegomarmcfly@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "chalk": "^2.4.2",
+    "debug": "^4.1.1",
+    "defaults": "^1.0.3",
+    "express": "^4.16.4",
+    "inquirer": "^6.2.2",
+    "jwt-simple": "^0.5.5",
+    "minimist": "^1.2.0",
+    "moment": "^2.24.0",
+    "mysql2": "^1.6.5",
+    "paypal-rest-sdk": "^1.8.1",
+    "sequelize": "^4.42.1",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
